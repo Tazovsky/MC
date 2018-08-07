@@ -1,0 +1,7 @@
+#### Testing
+### Przenoszenie większej liczby plików 
+current.folder <- "/Users/Kamil/aR/bot"
+new.folder <- "/Users/Kamil/aR/bot/Folder testowy"
+fileNames <- Sys.glob("*.xlsx")
+file.copy(fileNames, new.folder)
+file.remove(list.of.files)

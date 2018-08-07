@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533663898798.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "176054434",
+    "id" : "C8CB92B3",
+    "lastKnownWriteTime" : 1530120528,
+    "last_content_update" : 1533666431767,
+    "path" : "~/aR/Cities.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "21,12",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

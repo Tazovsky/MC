@@ -1,0 +1,21 @@
+### Przygotowanie listy dystrybucyjnej na podstawie plików w folderze
+files <- list.files(pattern = "\\.R$")
+write.csv(files, file = "DistList.csv")
+
+### Pozwala grzebać w xlsach
+install.packages("readxl")
+library(readxl)
+adres <- c(read_excel("Adresy.xlsx", sheet = 1, range = "D4"))
+
+#### Przenosi pliki w odpowiednie miejsce. Usuwa stary plik.
+my.file.rename <- function(from, to) {
+  todir <- dirname(to)
+  if (!isTRUE(file.info(todir)$isdir)) dir.create(todir, recursive=TRUE)
+  file.rename(from = from,  to = to)
+}
+### Test funkcji
+my.file.rename(from = "/Users/Kamil/aR/bot/Adresy.xlsx",
+               to = "/Users/Kamil/aR/Adresy.xlsx") 
+
+#### Next step ####
+#### Automazyacja

@@ -1,0 +1,22 @@
+baza <- read.csv("worldcitiespop.csv", header = TRUE, sep = "," )
+
+library(MASS)
+library(dplyr)
+
+bazapl <- filter(baza, Country == "pl")
+lookup <- NA
+baza <- cbind(baza,lookup)
+
+for (i in 1:nrow(baza)) {
+  if (baza[i, 1] == "pl") {
+    baza$lookup[i] <- c("Polska mistrzem Polski!") 
+  }
+}
+
+
+x <- c(2,5,3,9,8,11,6)
+count <- 0
+for (val in x) {
+  if(val %% 2 == 0)  count = count+1
+}
+print(count)

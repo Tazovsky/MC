@@ -1,0 +1,18 @@
+library(data.table)
+library(tidyverse)
+input.data <- read.csv("DS.csv", sep = ";")
+input.data$X <- NULL
+input.data$KN25_XXX_30 <- NA
+
+Modifier <- function(input.data,
+                     min               =  0,
+                     max               = 90,
+                     step              = 25,
+                     threshold         = 0.8,
+                     dates.column.name = "Date",
+                     cut.points        = c(NA, NA),
+                     sep               = ";",
+                     dec               = ",") {
+            function(input.data) {
+              
+            }

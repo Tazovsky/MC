@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533660800383.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1737472009",
+    "id" : "D7B72A4B",
+    "lastKnownWriteTime" : 1533668020,
+    "last_content_update" : 1533670407475,
+    "path" : "~/aR/Mediacom/Core.R",
+    "project_path" : "Core.R",
+    "properties" : {
+        "cursorPosition" : "4,10",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
